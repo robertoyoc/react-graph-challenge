@@ -1,0 +1,44 @@
+.component {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gray-button {
+  border: none;
+  background-color: gray;
+}
+
+.graph {
+  width: 400px;
+  height: 800px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.headers > div {
+  width: 20px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 800px;
+}
+
+.column {
+  background-color: lightsalmon;
+  height: 10px;
+  width: 20px;
+  color: lightsalmon;
+}
